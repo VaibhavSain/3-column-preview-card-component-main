@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    background-color: #f2f2f2;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    height: 28em;
+    width: 50em;
+    position: relative;
+    border-radius: 15px;
+}
+.container .sedans {
+    background-color: #e28525;
+    height: 100%;
+    width: 17em;
+    position: absolute;
+    left: 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.container .suvs {
+    background-color: #016972;
+    position: absolute;
+    height: 100%;
+    width: 17em;
+    left: 16em;
+}
+.container .luxury {
+    background-color:#00403f;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 17em;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.container .sedan-logo {
+    position: absolute;
+    top: 3em;
+    left: 2em;
+}
+.container .suv-logo {
+    position: absolute;
+    top: 3em;
+    left: 2em;
+}
+.container .luxury-logo {
+    position: absolute;
+    top: 3em;
+    left: 2em;
+}
+.container .heading {
+    color: #ffff;
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 4em;
+    left: 1em;
+}
+.container .paragraph {
+    color: #fffd;
+    font-size: 14px;
+    line-height: 22px;
+    position: absolute;
+    bottom: 11em;
+    left: 2.4em;
+}
+.container .btn {
+    height: 40px;
+    width: 120px;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+    position: absolute;
+    bottom: 3em;
+    left: 2.2em;
+    cursor: pointer;
+}
+.container .btn-1 p{
+    color: #e28525;
+}
+.container .btn-2 p{
+    color:#016972 ;
+}
+.container .btn-3 p {
+    color:#00403f ;
+}
+.container .btn  :hover {
+    color: white;
+    height: 95%;
+    width: 95%;
+    background-color: #e28525;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid white;
+    border-radius:60px;
+}
+.container .btn-2 :hover {
+    background-color:#016972 ;
+}
+.container .btn-3 :hover {
+    background-color:#00403f ;
+}
